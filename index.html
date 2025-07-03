@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container first">
+    <h1> Calculate </h1>
+    <h2>EUR AUD CAD CHF CNY GBP JPY USD</h2>
+    <div class="inputs">
+        <input type="text" name="from" id="from" placeholder="From">
+        <input type="text" name="to" id="to" placeholder="To">
+        <input type="text" name="amount" id="amount" placeholder="Amount">
+    </div>
+    <button id="calcBtn" type="submit">Calculate</button>
+    <div class="result hidden">Result: </div>
+</div>
+<div class="container second">
+    <h1> Calculate </h1>
+    <h2>EUR AUD CAD CHF CNY GBP JPY USD</h2>
+    <div class="inputs">
+        <label for="from1">From:</label>
+        <select id="from1">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="AUD">AUD</option>
+        </select>
+
+        <label for="to1">To:</label>
+        <select id="to1">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="AUD">AUD</option>
+        </select>
+        <input type="text" name="amount" id="amount1" placeholder="Amount">
+    </div>
+    <button id="calcBtn1" type="submit">Calculate</button>
+    <div class="result1 hidden">Result: </div>
+</div>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>
