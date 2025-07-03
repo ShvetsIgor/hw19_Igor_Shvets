@@ -13,7 +13,7 @@ const errorHandle1 = (err) => {
 
 const display1 = (res) => {
     result1.classList.remove('hidden');
-    result1.innerHTML = `${res}`
+    result1.innerHTML = `${amount1.value} ${from1.value} =  ${res} ${to1.value}`
 }
 
 
